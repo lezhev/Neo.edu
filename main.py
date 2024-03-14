@@ -1,3 +1,6 @@
 def calculate_sum(nums):
-    return sum(nums)
+    s = 0
+    for i in nums:
+        s += int(i)
+    return s
 
